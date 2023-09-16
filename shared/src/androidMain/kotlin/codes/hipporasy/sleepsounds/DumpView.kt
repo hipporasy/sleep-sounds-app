@@ -9,7 +9,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun DumpView() {
+actual fun DumpView() {
     Box(modifier = Modifier.size(50.dp).background(Color.Blue)) {
 
     }
