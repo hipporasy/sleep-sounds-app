@@ -26,6 +26,7 @@ import codes.hipporasy.sleepsounds.presentation.screens.DiscoverScreen
 import codes.hipporasy.sleepsounds.presentation.theme.SleepTheme
 import org.jetbrains.compose.resources.ExperimentalResourceApi
 import org.jetbrains.compose.resources.painterResource
+import org.koin.core.context.startKoin
 
 @OptIn(ExperimentalResourceApi::class, ExperimentalMaterial3Api::class)
 @Composable

@@ -53,6 +53,7 @@ kotlin {
                 implementation(libs.ktor.client.logging)
                 implementation(libs.ktor.serialization.kotlinx.json)
                 implementation(libs.kotlinx.datetime)
+                implementation(libs.koin.core)
             }
         }
         val commonTest by getting {

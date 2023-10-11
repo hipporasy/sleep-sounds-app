@@ -17,7 +17,6 @@ import androidx.compose.ui.unit.sp
 fun SleepTheme(
     content: @Composable () -> Unit
 ) {
-
     val typography = Typography(
         bodyMedium = TextStyle(
             fontFamily = FontFamily.Default,
@@ -26,12 +25,12 @@ fun SleepTheme(
         )
     )
 
-
     MaterialTheme(
         colorScheme = colorScheme.copy(
             primary = Color(0xFF4870FF),
             secondary = Color(0xFF21283F),
             onSecondary = Color(0xFF4870FF),
+            onPrimary = Color(0xFFFFFFFF),
             onSurfaceVariant = Color(0xFFFFFFFF).copy(alpha = 0.7f),
             surface = Color(0xFF21283F),
             background = Color(0xFF141927)
